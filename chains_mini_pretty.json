@@ -1728,6 +1728,19 @@
   "faucets": ["https://faucet.maplabs.io"],
   "infoURL": "https://maplabs.io"
 }, {
+  "name": "SiriusNet V2",
+  "chainId": 217,
+  "shortName": "SIN2",
+  "networkId": 217,
+  "nativeCurrency": {
+    "name": "MCD",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "rpc": ["https://u0zpw2zdzz:uf4y-ZGiQP_CJJgY6Vea2mSaeXOa1vFvfQ1PZhaDQ9M@u0iclv2dgh-u0jlczjhef-rpc.us0-aws.kaleido.io/"],
+  "faucets": [],
+  "infoURL": "https://siriusnet.io"
+}, {
   "name": "SoterOne Mainnet old",
   "chainId": 218,
   "shortName": "SO1-old",
@@ -2439,7 +2452,7 @@
     "symbol": "QOM",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.qom.one:8545"],
+  "rpc": ["https://rpc.qom.one:8545"],
   "faucets": [],
   "infoURL": "https://qom.one"
 }, {
@@ -2689,6 +2702,19 @@
   "rpc": ["https://rpc.v3.testnet.pulsechain.com/", "wss://rpc.v3.testnet.pulsechain.com/"],
   "faucets": ["https://faucet.v3.testnet.pulsechain.com/"],
   "infoURL": "https://pulsechain.com/"
+}, {
+  "name": "muNode Testnet",
+  "chainId": 956,
+  "shortName": "munode",
+  "networkId": 956,
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "rpc": [],
+  "faucets": [],
+  "infoURL": "https://munode.dev/"
 }, {
   "name": "CCN",
   "chainId": 970,
@@ -3184,6 +3210,19 @@
   "faucets": [],
   "infoURL": "https://omplatform.com/"
 }, {
+  "name": "CIC Chain Testnet",
+  "chainId": 1252,
+  "shortName": "CICT",
+  "networkId": 1252,
+  "nativeCurrency": {
+    "name": "Crazy Internet Coin",
+    "symbol": "CICT",
+    "decimals": 18
+  },
+  "rpc": ["https://testapi.cicscan.com"],
+  "faucets": ["https://cicfaucet.com"],
+  "infoURL": "https://www.cicchain.net"
+}, {
   "name": "HALO Mainnet",
   "chainId": 1280,
   "shortName": "HO",
@@ -3352,6 +3391,19 @@
   "rpc": ["http://127.0.0.1:8545"],
   "faucets": [],
   "infoURL": "https://geth.ethereum.org"
+}, {
+  "name": "CIC Chain Mainnet",
+  "chainId": 1353,
+  "shortName": "CIC",
+  "networkId": 1353,
+  "nativeCurrency": {
+    "name": "Crazy Internet Coin",
+    "symbol": "CIC",
+    "decimals": 18
+  },
+  "rpc": ["https://xapi.cicscan.com"],
+  "faucets": [],
+  "infoURL": "https://www.cicchain.net"
 }, {
   "name": "Polygon zkEVM Testnet",
   "chainId": 1402,
@@ -3951,6 +4003,19 @@
   "faucets": [],
   "infoURL": "https://bo.vcex.xyz/"
 }, {
+  "name": "Altcoinchain",
+  "chainId": 2330,
+  "shortName": "alt",
+  "networkId": 12345,
+  "nativeCurrency": {
+    "name": "Altcoin",
+    "symbol": "ALT",
+    "decimals": 18
+  },
+  "rpc": ["http://161.35.101.221:8545", "https://rpc0.altcoinchain.org"],
+  "faucets": [],
+  "infoURL": "https://altcoinchain.org"
+}, {
   "name": "Kortho Mainnet",
   "chainId": 2559,
   "shortName": "ktoc",
@@ -4510,18 +4575,18 @@
   "faucets": ["https://faucet.tanenbaum.io"],
   "infoURL": "https://syscoin.org"
 }, {
-  "name": "Digest Swarm Chain",
+  "name": "Ganache",
   "chainId": 5777,
-  "shortName": "dgcc",
+  "shortName": "ggui",
   "networkId": 5777,
   "nativeCurrency": {
-    "name": "DigestCoin",
-    "symbol": "DGCC",
+    "name": "Ganache Test Ether",
+    "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://rpc.digestgroup.ltd"],
+  "rpc": ["https://127.0.0.1:7545"],
   "faucets": [],
-  "infoURL": "https://digestgroup.ltd"
+  "infoURL": "https://trufflesuite.com/ganache/"
 }, {
   "name": "Ontology Testnet",
   "chainId": 5851,
@@ -5524,6 +5589,32 @@
   "faucets": ["https://faucet.opside.network"],
   "infoURL": "https://opside.network"
 }, {
+  "name": "Oasis Sapphire",
+  "chainId": 23294,
+  "shortName": "sapphire",
+  "networkId": 23294,
+  "nativeCurrency": {
+    "name": "Sapphire Rose",
+    "symbol": "ROSE",
+    "decimals": 18
+  },
+  "rpc": ["https://sapphire.oasis.dev", "wss://sapphire.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.io/dapp/sapphire"
+}, {
+  "name": "Oasis Sapphire Testnet",
+  "chainId": 23295,
+  "shortName": "sapphire-testnet",
+  "networkId": 23295,
+  "nativeCurrency": {
+    "name": "Sapphire Test Rose",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet.sapphire.oasis.dev", "wss://testnet.sapphire.oasis.dev/ws"],
+  "faucets": [],
+  "infoURL": "https://docs.oasis.io/dapp/sapphire"
+}, {
   "name": "Webchain",
   "chainId": 24484,
   "shortName": "web",
@@ -5602,6 +5693,32 @@
   "faucets": [],
   "infoURL": "https://ethersocial.org"
 }, {
+  "name": "CloudTx Mainnet",
+  "chainId": 31223,
+  "shortName": "CLDTX",
+  "networkId": 31223,
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLD",
+    "decimals": 9
+  },
+  "rpc": ["https://mainnet-rpc.cloudtx.finance"],
+  "faucets": [],
+  "infoURL": "https://cloudtx.finance"
+}, {
+  "name": "CloudTx Testnet",
+  "chainId": 31224,
+  "shortName": "CLD",
+  "networkId": 31224,
+  "nativeCurrency": {
+    "name": "CloudTx",
+    "symbol": "CLOUD",
+    "decimals": 9
+  },
+  "rpc": ["https://testnet-rpc.cloudtx.finance"],
+  "faucets": ["https://faucet.cloudtx.finance"],
+  "infoURL": "https://cloudtx.finance/"
+}, {
   "name": "GoChain Testnet",
   "chainId": 31337,
   "shortName": "got",
@@ -5653,6 +5770,19 @@
   "rpc": ["https://mainnet.anyswap.exchange", "https://fsn.dev/api"],
   "faucets": [],
   "infoURL": "https://www.fusion.org/"
+}, {
+  "name": "Aves Mainnet",
+  "chainId": 33333,
+  "shortName": "avs",
+  "networkId": 33333,
+  "nativeCurrency": {
+    "name": "Aves",
+    "symbol": "AVS",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.avescoin.io"],
+  "faucets": [],
+  "infoURL": "https://avescoin.io"
 }, {
   "name": "Q Mainnet",
   "chainId": 35441,
@@ -6161,7 +6291,7 @@
   "faucets": ["https://faucet.nervos.org/"],
   "infoURL": "https://github.com/nervosnetwork/godwoken"
 }, {
-  "name": "Godwoken Testnet (V1.1)",
+  "name": "Godwoken Testnet v1",
   "chainId": 71401,
   "shortName": "gw-testnet-v1",
   "networkId": 71401,
@@ -6170,7 +6300,7 @@
     "symbol": "pCKB",
     "decimals": 18
   },
-  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev"],
+  "rpc": ["https://godwoken-testnet-v1.ckbapp.dev", "https://v1.testnet.godwoken.io/rpc"],
   "faucets": ["https://testnet.bridge.godwoken.io"],
   "infoURL": "https://www.nervos.org"
 }, {
@@ -7288,7 +7418,7 @@
     "symbol": "QOM",
     "decimals": 18
   },
-  "rpc": ["https://testnet.qom.one:8545"],
+  "rpc": ["https://rpct.qom.one:8545"],
   "faucets": ["https://faucet.qom.one"],
   "infoURL": "https://qom.one"
 }, {

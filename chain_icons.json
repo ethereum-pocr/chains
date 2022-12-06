@@ -143,6 +143,14 @@
     "format": "png"
   }]
 }, {
+  "name": "oho",
+  "icons": [{
+    "url": "ipfs://QmZt75xixnEtFzqHTrJa8kJkV4cTXmUZqeMeHM8BcvomQc",
+    "width": 512,
+    "height": 512,
+    "format": "png"
+  }]
+}, {
   "name": "web3games",
   "icons": [{
     "url": "ipfs://QmUc57w3UTHiWapNW9oQb1dP57ymtdemTTbpvGkjVHBRCo",
@@ -492,6 +500,14 @@
     "url": "ipfs://Qmc8hsCbUUjnJDnXrDhFh4V1xk1gJwZbUyNJ39p72javji",
     "width": 400,
     "height": 400,
+    "format": "png"
+  }]
+}, {
+  "name": "cloudtx",
+  "icons": [{
+    "url": "ipfs://QmSEsi71AdA5HYH6VNC5QUQezFg1C7BiVQJdx1VVfGz3g3",
+    "width": 713,
+    "height": 830,
     "format": "png"
   }]
 }, {
@@ -935,6 +951,14 @@
     "format": "png"
   }]
 }, {
+  "name": "avescan",
+  "icons": [{
+    "url": "ipfs://QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn",
+    "width": 232,
+    "height": 232,
+    "format": "png"
+  }]
+}, {
   "name": "cloudwalk",
   "icons": [{
     "url": "ipfs://QmPytfZEnKMx5mHiXB9fiuoSvA9jLi7tZ14gERSz2n4MJM",
@@ -1199,6 +1223,14 @@
     "format": "png"
   }]
 }, {
+  "name": "aves",
+  "icons": [{
+    "url": "ipfs://QmeKQVv2QneHaaggw2NfpZ7DGMdjVhPywTdse5RzCs4oGn",
+    "width": 232,
+    "height": 232,
+    "format": "png"
+  }]
+}, {
   "name": "ycc",
   "icons": [{
     "url": "ipfs://QmdbPhiB5W2gbHZGkYsN7i2VTKKP9casmAN2hRnpDaL9W4",
@@ -1319,6 +1351,14 @@
     "format": "png"
   }]
 }, {
+  "name": "ganache",
+  "icons": [{
+    "url": "ipfs://Qmc9N7V8CiLB4r7FEcG7GojqfiGGsRCZqcFWCahwMohbDW",
+    "width": 267,
+    "height": 300,
+    "format": "png"
+  }]
+}, {
   "name": "rangers",
   "icons": [{
     "url": "ipfs://QmfHG3xbg4iiopagww93Gu7tmvCpPwZdiwsUjd3Dt5mRwT",
@@ -1356,6 +1396,14 @@
     "url": "ipfs://QmaBtaukPNNUNjdJSUAwuFFQMLbZX1Pc3fvXKTKQcds7Kf",
     "width": 104,
     "height": 80,
+    "format": "png"
+  }]
+}, {
+  "name": "altcoinchain",
+  "icons": [{
+    "url": "ipfs://QmYwHmGC9CRVcKo1LSesqxU31SDj9vk2iQxcFjQArzhix4",
+    "width": 720,
+    "height": 720,
     "format": "png"
   }]
 }, {
