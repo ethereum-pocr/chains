@@ -47,6 +47,14 @@
     "format": "png"
   }]
 }, {
+  "name": "tcg_verse",
+  "icons": [{
+    "url": "ipfs://bafkreidg4wpewve5mdxrofneqblydkrjl3oevtgpdf3fk3z3vjqam6ocoe",
+    "width": 350,
+    "height": 350,
+    "format": "png"
+  }]
+}, {
   "name": "SX",
   "icons": [{
     "url": "ipfs://QmSXLXqyr2H6Ja5XrmznXbWTEvF2gFaL8RXNXgyLmDHjAF",
@@ -551,6 +559,14 @@
     "format": "png"
   }]
 }, {
+  "name": "metad",
+  "icons": [{
+    "url": "ipfs://QmZyxS9BfRGYWWDtvrV6qtthCYV4TwdjLoH2sF6MkiTYFf",
+    "width": 1280,
+    "height": 1280,
+    "format": "png"
+  }]
+}, {
   "name": "cem",
   "icons": [{
     "url": "ipfs://QmeNYqxR4nEk1v3DBXY3gjzYC1MSNCTmRvmjZ72inyzCFv",
@@ -655,6 +671,14 @@
     "format": "png"
   }]
 }, {
+  "name": "xodex",
+  "icons": [{
+    "url": "ipfs://QmXt49jPfHUmDF4n8TF7ks6txiPztx6qUHanWmHnCoEAhW",
+    "width": 256,
+    "height": 256,
+    "format": "png"
+  }]
+}, {
   "name": "polyjuice",
   "icons": [{
     "url": "ipfs://QmZ5gFWUxLFqqT3DkefYfRsVksMwMTc5VvBjkbHpeFMsNe",
@@ -690,6 +714,14 @@
   "name": "ditherscan",
   "icons": [{
     "url": "ipfs://QmSHN5GtRGpMMpszSn1hF47ZSLRLqrLxWsQ48YYdJPyjLf",
+    "width": 500,
+    "height": 500,
+    "format": "png"
+  }]
+}, {
+  "name": "omaxchain",
+  "icons": [{
+    "url": "ipfs://Qmd7omPxrehSuxHHPMYd5Nr7nfrtjKdRJQEhDLfTb87w8G",
     "width": 500,
     "height": 500,
     "format": "png"
@@ -764,6 +796,14 @@
     "url": "ipfs://bafkreid5evn4qovxo6msuekizv5zn7va62tea7w2zpdx5sskconebuhqle",
     "width": 800,
     "height": 800,
+    "format": "png"
+  }]
+}, {
+  "name": "flacoin",
+  "icons": [{
+    "url": "ipfs://bafybeiadlvc4pfiykehyt2z67nvgt5w4vlov27olu5obvmryv4xzua4tae",
+    "width": 256,
+    "height": 256,
     "format": "png"
   }]
 }, {
@@ -860,6 +900,14 @@
     "url": "ipfs://QmQnXu13ym8W1VA3QxocaNVXGAuEPmamSCkS7bBscVk1f4",
     "width": 1050,
     "height": 1050,
+    "format": "png"
+  }]
+}, {
+  "name": "omaxray",
+  "icons": [{
+    "url": "ipfs://Qmd7omPxrehSuxHHPMYd5Nr7nfrtjKdRJQEhDLfTb87w8G",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {
@@ -1316,6 +1364,14 @@
     "url": "ipfs://Qmcxevb3v8PEvnvfYgcG3bCBuPhe5YAdsHeaufDChSSR3Q",
     "width": 512,
     "height": 512,
+    "format": "png"
+  }]
+}, {
+  "name": "bton",
+  "icons": [{
+    "url": "ipfs://bafkreig3hoedafisrgc6iffdo2jcblm6kov35h72gcblc3zkmt7t4ucwhy",
+    "width": 800,
+    "height": 800,
     "format": "png"
   }]
 }, {

@@ -2865,6 +2865,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Omax Mainnet",
+  "chain": "OMAX Chain",
+  "rpc": ["https://mainapi.omaxray.com"],
+  "faucets": ["https://faucet.omaxray.com/"],
+  "nativeCurrency": {
+    "name": "OMAX COIN",
+    "symbol": "OMAX",
+    "decimals": 18
+  },
+  "infoURL": "https://www.omaxcoin.com/",
+  "shortName": "omax",
+  "chainId": 311,
+  "networkId": 311,
+  "icon": "omaxchain",
+  "explorers": [{
+    "name": "Omax Chain Explorer",
+    "url": "https://omaxray.com",
+    "icon": "omaxray",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Filecoin - Mainnet",
   "chain": "FIL",
   "icon": "filecoin",
@@ -3984,6 +4005,25 @@
     "name": "Zeeth Explorer Dev",
     "url": "https://explorer.dev.zeeth.io",
     "standard": "none"
+  }]
+}, {
+  "name": "Fantasia Chain Mainnet",
+  "chain": "FSC",
+  "rpc": ["https://mainnet-data1.fantasiachain.com/", "https://mainnet-data2.fantasiachain.com/", "https://mainnet-data3.fantasiachain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "FST",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "infoURL": "https://fantasia.technology/",
+  "shortName": "FSCMainnet",
+  "chainId": 868,
+  "networkId": 868,
+  "explorers": [{
+    "name": "FSCScan",
+    "url": "https://explorer.fantasiachain.com",
+    "standard": "EIP3091"
   }]
 }, {
   "name": "Dexit Network",
@@ -6146,6 +6186,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Metaplayerone Mainnet",
+  "chain": "METAD",
+  "icon": "metad",
+  "rpc": ["https://rpc.metaplayer.one/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "METAD",
+    "symbol": "METAD",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.metaplayer.one/",
+  "shortName": "Metad",
+  "chainId": 2122,
+  "networkId": 2122,
+  "explorers": [{
+    "name": "Metad Scan",
+    "url": "https://scan.metaplayer.one",
+    "icon": "metad",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "BOSagora Mainnet",
   "chain": "ETH",
   "rpc": ["https://mainnet.bosagora.org", "https://rpc.bosagora.org"],
@@ -6390,6 +6451,51 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "TCG Verse Mainnet",
+  "chain": "TCG Verse",
+  "icon": "tcg_verse",
+  "rpc": ["https://rpc.tcgverse.xyz"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "OAS",
+    "symbol": "OAS",
+    "decimals": 18
+  },
+  "infoURL": "https://tcgverse.xyz/",
+  "shortName": "TCGV",
+  "chainId": 2400,
+  "networkId": 2400,
+  "explorers": [{
+    "name": "TCG Verse Explorer",
+    "url": "https://explorer.tcgverse.xyz",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-248"
+  }
+}, {
+  "name": "XODEX",
+  "chain": "XODEX",
+  "rpc": ["https://mainnet.xo-dex.com/rpc", "https://xo-dex.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "XODEX Native Token",
+    "symbol": "XODEX",
+    "decimals": 18
+  },
+  "infoURL": "https://xo-dex.com",
+  "shortName": "xodex",
+  "chainId": 2415,
+  "networkId": 10,
+  "icon": "xodex",
+  "explorers": [{
+    "name": "XODEX Explorer",
+    "url": "https://explorer.xo-dex.com",
+    "standard": "EIP3091",
+    "icon": "xodex"
+  }]
+}, {
   "name": "Kortho Mainnet",
   "chain": "Kortho Chain",
   "rpc": ["https://www.kortho-chain.com"],
@@ -6606,8 +6712,8 @@
   "name": "Filecoin - Hyperspace testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://api.hyperspace.node.glif.io/rpc/v0"],
-  "faucets": ["https://hyperspace.filtest.network/#faucet"],
+  "rpc": ["https://api.hyperspace.node.glif.io/rpc/v1", "https://filecoin-hyperspace.chainstacklabs.com/rpc/v1"],
+  "faucets": ["https://hyperspace.yoga/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
@@ -6852,6 +6958,25 @@
     "url": "https://bittexscan.com",
     "icon": "etherscan",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Empire Network",
+  "chain": "EMPIRE",
+  "rpc": ["https://rpc.empirenetwork.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Empire",
+    "symbol": "EMPIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://www.empirenetwork.io/",
+  "shortName": "empire",
+  "chainId": 3693,
+  "networkId": 3693,
+  "explorers": [{
+    "name": "Empire Explorer",
+    "url": "https://explorer.empirenetwork.io",
+    "standard": "none"
   }]
 }, {
   "name": "Crossbell",
@@ -7895,6 +8020,26 @@
   "explorers": [{
     "name": "Klaytnscope",
     "url": "https://scope.klaytn.com",
+    "standard": "none"
+  }]
+}, {
+  "name": "Blockton Blockchain",
+  "chain": "Blockton Blockchain",
+  "icon": "bton",
+  "rpc": ["https://rpc.blocktonscan.com/"],
+  "faucets": ["https://faucet.blocktonscan.com/"],
+  "nativeCurrency": {
+    "name": "BLOCKTON",
+    "symbol": "BTON",
+    "decimals": 18
+  },
+  "infoURL": "https://blocktoncoin.com",
+  "shortName": "BTON",
+  "chainId": 8272,
+  "networkId": 8272,
+  "explorers": [{
+    "name": "Blockton Explorer",
+    "url": "https://blocktonscan.com",
     "standard": "none"
   }]
 }, {
@@ -9520,8 +9665,8 @@
   "name": "Filecoin - Wallaby testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://wallaby.node.glif.io/rpc/v0"],
-  "faucets": ["https://wallaby.network/#faucet"],
+  "rpc": ["https://wallaby.node.glif.io/rpc/v1"],
+  "faucets": ["https://wallaby.yoga/#faucet"],
   "nativeCurrency": {
     "name": "testnet filecoin",
     "symbol": "tFIL",
@@ -10027,6 +10172,26 @@
     "standard": "none"
   }]
 }, {
+  "name": "Floripa",
+  "title": "Wireshape Testnet Floripa",
+  "chain": "Wireshape",
+  "rpc": ["https://rpc-floripa.wireshape.org"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "WIRE",
+    "symbol": "WIRE",
+    "decimals": 18
+  },
+  "infoURL": "https://wireshape.org",
+  "shortName": "floripa",
+  "chainId": 49049,
+  "networkId": 49049,
+  "explorers": [{
+    "name": "Wire Explorer",
+    "url": "https://floripa-explorer.wireshape.org",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Bifrost Testnet1",
   "title": "The Bifrost Testnet network",
   "chain": "BFC",
@@ -10061,6 +10226,21 @@
   "chainId": 49797,
   "networkId": 49797,
   "slip44": 49797
+}, {
+  "name": "Liveplex OracleEVM",
+  "chain": "Liveplex OracleEVM Network",
+  "rpc": ["https://oracle.liveplex.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "",
+  "shortName": "LOE",
+  "chainId": 50001,
+  "networkId": 50001,
+  "explorers": []
 }, {
   "name": "GTON Testnet",
   "chain": "GTON Testnet",
@@ -11647,7 +11827,7 @@
   "name": "Filecoin - Calibration testnet",
   "chain": "FIL",
   "icon": "filecoin",
-  "rpc": ["https://api.calibration.node.glif.io/rpc/v0"],
+  "rpc": ["https://api.calibration.node.glif.io/rpc/v1"],
   "faucets": ["https://faucet.calibration.fildev.network/"],
   "nativeCurrency": {
     "name": "testnet filecoin",
@@ -11938,12 +12118,12 @@
 }, {
   "name": "ethereum Fair",
   "chainId": 513100,
-  "networkId": 1,
+  "networkId": 513100,
   "shortName": "etf",
   "chain": "ETF",
   "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
+    "name": "EthereumFair",
+    "symbol": "ETHF",
     "decimals": 18
   },
   "rpc": ["https://rpc.etherfair.org"],
@@ -12027,7 +12207,12 @@
   "infoURL": "https://bearnetwork.net",
   "shortName": "BRNKC",
   "chainId": 641230,
-  "networkId": 641230
+  "networkId": 641230,
+  "explorers": [{
+    "name": "brnkscan",
+    "url": "https://brnkscan.bearnetwork.net",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Vision - Vpioneer Test Chain",
   "chain": "Vision-Vpioneer",
@@ -12287,6 +12472,27 @@
   "explorers": [{
     "name": "Kiln Explorer",
     "url": "https://explorer.kiln.themerge.dev",
+    "icon": "ethereum",
+    "standard": "EIP3091"
+  }]
+}, {
+  "name": "Zhejiang",
+  "chain": "ETH",
+  "rpc": ["https://rpc.zhejiang.ethpandaops.io"],
+  "faucets": ["https://faucet.zhejiang.ethpandaops.io", "https://zhejiang-faucet.pk910.de"],
+  "nativeCurrency": {
+    "name": "Testnet ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://zhejiang.ethpandaops.io",
+  "shortName": "zhejiang",
+  "chainId": 1337803,
+  "networkId": 1337803,
+  "icon": "ethereum",
+  "explorers": [{
+    "name": "Zhejiang Explorer",
+    "url": "https://zhejiang.beaconcha.in",
     "icon": "ethereum",
     "standard": "EIP3091"
   }]
@@ -12551,7 +12757,7 @@
   "faucets": ["http://fauceth.komputing.org?chain=11155111&address=${ADDRESS}"],
   "nativeCurrency": {
     "name": "Sepolia Ether",
-    "symbol": "SEP",
+    "symbol": "ETH",
     "decimals": 18
   },
   "infoURL": "https://sepolia.otterscan.io",
@@ -12744,6 +12950,31 @@
   "chainId": 28945486,
   "networkId": 28945486,
   "slip44": 344
+}, {
+  "name": "Flachain Mainnet",
+  "chain": "FLX",
+  "icon": "flacoin",
+  "rpc": ["https://flachain.flaexchange.top/"],
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Flacoin",
+    "symbol": "FLA",
+    "decimals": 18
+  },
+  "infoURL": "https://www.flaexchange.top",
+  "shortName": "fla",
+  "chainId": 29032022,
+  "networkId": 29032022,
+  "explorers": [{
+    "name": "FLXExplorer",
+    "url": "https://explorer.flaexchange.top",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Filecoin - Local testnet",
   "chain": "FIL",
