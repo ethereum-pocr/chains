@@ -2183,6 +2183,14 @@
     "format": "png"
   }]
 }, {
+  "name": "pocr",
+  "icons": [{
+    "url": "ipfs://bafybeihpwn2nhlxfjq6ja2hnfcqxbb6cxcjs2a345yg4yksxlcya3n6wvm/pocr.png",
+    "width": 334,
+    "height": 360,
+    "format": "png"
+  }]
+}, {
   "name": "sapphire",
   "icons": [{
     "url": "ipfs://Qmd1PGt4cDRjFbh4ihP5QKEd4XQVwN1MkebYKdF56V74pf",
