@@ -3,7 +3,7 @@
   "shortName": "Gobi",
   "chain": "Gobi",
   "icon": "eon",
-  "rpc": ["https://gobi-testnet.horizenlabs.io/ethv1"],
+  "rpc": [],
   "features": [
     {
       "name": "EIP155"
@@ -12,7 +12,7 @@
       "name": "EIP1559"
     }
   ],
-  "faucets": ["https://faucet.horizen.io"],
+  "faucets": [],
   "nativeCurrency": {
     "name": "Testnet Zen",
     "symbol": "tZEN",
@@ -21,13 +21,7 @@
   "infoURL": "https://horizen.io/",
   "chainId": 1663,
   "networkId": 1663,
-  "slip44": 121,
-  "explorers": [
-    {
-      "name": "Gobi Testnet Block Explorer",
-      "url": "https://gobi-explorer.horizen.io",
-      "icon": "eon",
-      "standard": "EIP3091"
-    }
-  ]
+  "slip44": 1,
+  "explorers": [],
+  "status": "deprecated"
 }
